@@ -1,0 +1,66 @@
+@media (max-width: 767px) {
+    .sideNav {
+        padding: 20px;
+        position: fixed;
+        width: 70%;
+        height: 70%;
+        border-radius: 20px;
+        float: left;
+        z-index: 10000;
+        background: rgba(3, 18, 61, 0.68);
+        backdrop-filter: blur(5px);
+    }
+
+    .HeroSectionMain {
+
+        padding-left: 15%;
+    }
+
+    .crossButton {
+        z-index: 100001;
+        color: #ffffff;
+        position: fixed;
+        right: -20px;
+        padding-top: 2px;
+    }
+
+    .defaultDiv {
+        margin-top: 10%;
+    }
+}
+
+.crossButton:hover {
+    color: #FC5A5A;
+    transform: rotate(90deg);
+}
+
+.menuButton {
+    top: 120px;
+    position: fixed;
+    z-index: 10000;
+    color: #DEDEDE;
+    background: #FC5A5A;
+    font-size: 20px;
+    width: 60px;
+    text-align: center;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.topBarFixed {
+    position: fixed;
+    top: 0px;
+    height: 70px;
+
+    z-index: 100000;
+    background-color: #03123D;
+    width: 100%;
+}
+.defaultDiv{
+    animation: shake 3s infinite;
+}
+@keyframes shake {
+    0% { transform: translate(1px, 1px) ; }
+
+    50% { transform: translate(10px, 20px) ; }
+    100% { transform: translate(1px, 1px) ; }
+}

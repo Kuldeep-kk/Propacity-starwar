@@ -1,0 +1,185 @@
+.particularPageMain {
+    margin-right: 30px;
+    padding-right: 10px;
+    margin-bottom: 300px;
+}
+
+.DataCardBody {
+    margin-top: 3px;
+    border-radius: 8px;
+    background-color: #4D5875;
+}
+
+.DataCard {
+    border: none;
+    background: none;
+
+}
+
+.DataCard:hover {
+    scale: 1.1;
+}
+
+.dataimg {
+    border-radius: 8px;
+}
+
+.layoutselectorsize {
+    width: 30px;
+}
+
+.selectedLayoutGrid {
+    background: white;
+    width: 100px;
+    padding-left: 25px;
+    border-radius: 8px;
+    right: 50px;
+
+}
+
+.normalLayoutGrid {
+    right: 100px;
+
+}
+
+.selectedLayoutList {
+    background: white;
+    width: 80px;
+    padding-left: 10px;
+    border-radius: 8px;
+    right: 20px
+}
+
+.normalLayoutGrid {
+    right: 100px;
+
+}
+
+.normalLayoutList {
+    right: 10px;
+
+}
+
+.DataList {
+    scale: 0.95;
+
+    border-bottom: 2px solid grey;
+    border-radius: 5px;
+
+
+}
+
+.headList {
+    background: #4D5875;
+    color: white;
+    border-radius: 5px;
+
+}
+
+.DataList:hover {
+    background: #4D5875;
+    scale: 0.99;
+
+
+}
+
+.dropDownMenu {
+
+    position: fixed;
+    width: 172px;
+    padding: 8px;
+    z-index: 999;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background: #FFF;
+}
+
+.dropDownMenuItem {
+    width: 100%;
+    padding: 5px;
+}
+
+.dropDownMenuItem:hover {
+    background: #F1F1F5;
+
+}
+
+.dropDownContainer {
+    position: relative;
+
+}
+
+.detailViewContainer {
+    position: fixed;
+    top: 10%;
+    right: -30%;
+    width: 320px;
+    height: auto;
+    padding: 10px;
+    padding-left: 20px;
+    background: rgba(3, 18, 61, 0.68);
+    backdrop-filter: blur(5px);
+    transition: transform 0.5s ease-out;
+    z-index: 9999;
+}
+
+.detailViewContainer.open {
+    right: 0;
+    transform: translateX(-2%);
+}
+
+.background-blur {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    /* Adjust the blur strength as needed */
+    z-index: 10000;
+    /* Lower than the popup element */
+}
+
+@media (min-width: 950px) {
+    .dropDownMenuGrid {
+        margin-left: 5% !important;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .DataList {
+        margin-left: -35px;
+        width: 120%;
+    }
+
+    .headList {
+        margin-left: -2%;
+    }
+
+    .topBarParticular {
+        margin-left: -25px;
+        width: 120% !important;
+
+    }
+
+    .moreDot {
+        padding: 0px !important;
+        padding-top: 25px !important;
+    }
+}
+
+.dropDownMenuGrid {
+    position: fixed;
+    width: 172px;
+    padding: 8px;
+    z-index: 999;
+    align-items: flex-start;
+    gap: 4px;
+    border-radius: 4px;
+    border: 1px solid grey;
+    background: #FFF;
+    margin-left: 10%;
+}

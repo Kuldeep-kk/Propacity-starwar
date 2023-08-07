@@ -1,0 +1,66 @@
+.SelectedBox {
+    width: 95%;
+}
+
+.imgLabel {
+    color: white;
+    margin-top: 50px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.SelectedIng {
+
+    height: 175px;
+    margin: auto;
+
+    border: 1px solid grey;
+    border-radius: 10px;
+
+}
+
+.textBox {
+    margin-top: 5px;
+    background: white;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    color: grey;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.textLabel {
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.topBar {
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.bottomBar {
+    margin-top: 15%;
+    border-top: 1px solid grey;
+}
+
+.bottomBut {
+    border-top: 1px solid grey;
+    margin-top: 10px;
+
+    text-align: center;
+    border-radius: 8px;
+    background: #CB1A80;
+    padding: 10px 16px;
+
+}
+
